@@ -4,15 +4,15 @@ import Link from "next/link"
 import { useRef } from "react"
 import { Facebook, Instagram, Twitter, ArrowRight } from "lucide-react"
 
-import AnimatedSection from "@/components/animated-section"
-import AnimatedHeading from "@/components/animated-heading"
+import AnimatedSection from "../components/animated-section"
+import AnimatedHeading from "../components/animated-heading"
 
-import TextReveal from "@/components/text-reveal"
+import TextReveal from "../components/text-reveal"
 
-import { Button } from "@/components/ui/button"
-import { Card, CardContent } from "@/components/ui/card"
-import BackgroundDecoration from "@/components/background-decoration"
-import ColorfulDivider from "@/components/colorful-divider"
+import { Button } from "../components/ui/button"
+import { Card, CardContent } from "../components/ui/card"
+import BackgroundDecoration from "../components/background-decoration"
+import ColorfulDivider from "../components/colorful-divider"
 
 export default function Home() {
   const featuredRef = useRef(null);
